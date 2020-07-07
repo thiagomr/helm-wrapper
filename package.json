@@ -1,0 +1,16 @@
+{
+  "name": "helm-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thiago Moraes",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  }
+}
