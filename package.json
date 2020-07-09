@@ -12,5 +12,9 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiagomr/helm-wrapper"
   }
 }
