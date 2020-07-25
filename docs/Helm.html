@@ -314,7 +314,7 @@ helm.addReposistory('myrepo', 'https://mycharts.example', ['--user foo', '--pass
 
     <h5>Example</h5>
     
-    <pre class="prettyprint"><code>helm.custom('repo remove myrepo');</code></pre>
+    <pre class="prettyprint"><code>helm.custom('repo list');</code></pre>
 
 
 
@@ -628,7 +628,7 @@ helm.addReposistory('myrepo', 'https://mycharts.example', ['--user foo', '--pass
 helm.install('nginx', 'bitnami/nginx');
 
 //install on custom namespace, setting env variables
-helm.install('nginx', 'bitnami/nginx', ['-n dev', '--set PORT=8000']);</code></pre>
+helm.install('api', 'myrepo/api', ['-n dev', '--set PORT=8000']);</code></pre>
 
 
 
