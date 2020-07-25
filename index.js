@@ -1,4 +1,4 @@
-const Application = require('./lib/application');
-const singleton = new Application();
+const Helm = require('./lib/helm');
+const singleton = new Helm();
 
 module.exports = singleton;

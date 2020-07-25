@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .js",
+    "docs": "jsdoc -c jsdoc.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Thiago Moraes",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.4.0"
+    "docdash": "^1.2.0",
+    "eslint": "^7.4.0",
+    "jsdoc": "^3.6.5"
   },
   "repository": {
     "type": "git",

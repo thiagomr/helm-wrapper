@@ -16,6 +16,9 @@ Installation is done using the [`npm install` command](https://docs.npmjs.com/ge
 $ npm install helm-wrapper
 ```
 
+## Docs
+  Check [API Docs](docs/index.html) for more details.
+
 ## Features
 
   * Install packages
