@@ -17,7 +17,7 @@ $ npm install helm-wrapper
 ```
 
 ## Docs
-  Check [API Docs](docs/index.html) for more details.
+  Check [API Docs](https://thiagomr.github.io/helm-wrapper/index.html) for more details.
 
 ## Features
 
